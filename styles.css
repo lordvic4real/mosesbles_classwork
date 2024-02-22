@@ -5,3 +5,137 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* mos footer**/
+
+footer {
+  position: relative;
+  width: 1366px;
+  height: 435px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row;
+}
+.rectangel {
+  position: absolute;
+  width: 1366px;
+  height: 400px;
+  border: 1.5px solid #ffffff;
+  top: 35px;
+  background: #135e90;
+}
+
+.footer-contactus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1087px;
+  height: 70px;
+  border-radius: 35px;
+  background: #d6f2f5;
+  margin: -40px 0 0 139px;
+}
+i {
+  width: 36px;
+  height: 36px;
+  background: #135e90;
+  border-radius: 20px;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+}
+
+.contact-button {
+  border-radius: 80px;
+  width: 237px;
+  height: 40px;
+  color: white;
+  background: #135e90;
+}
+.ft-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0 137px;
+  color: #ffffff;
+}
+.flx1 {
+  flex: 2;
+  align-items: center;
+  width: 397px;
+  height: 120px;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -72px;
+}
+.flx2 {
+  flex: 1;
+  align-items: center;
+  text-transform: capitalize;
+  width: 220px;
+  height: 223px;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.flx3 {
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: capitalize;
+  width: 220px;
+  height: 256px;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.flx4 {
+  align-items: center;
+  margin: -50px 0 0 137px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 600;
+}
+input {
+  border-radius: 20px;
+  height: 35px;
+  width: 422px;
+  border: #ffffff;
+}
+.btn {
+  border-radius: 16.5px;
+  background: #135e90;
+  width: 87px;
+  height: 33px;
+  border: #135e90;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.bkb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px;
+  background: #ffffff;
+  height: 35px;
+  width: 422px;
+  margin-left: 137px;
+  border-radius: 35px;
+}
+.news {
+  margin-top: 33px;
+}
