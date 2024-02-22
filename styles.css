@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* mos footer**/
+
 
 footer {
   position: relative;
@@ -138,4 +138,63 @@ input {
 }
 .news {
   margin-top: 33px;
+=======
+header{
+/* display: flex; */
+height: 60px;
+background-color:#D6F2F5;
+padding: 10px 5%;
+font-family: "Mulish", sans-serif;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  
+  
+}
+nav a{
+  color: rgb(36, 37, 53);
+  text-decoration: none;
+  padding: 10px;
+}
+button{
+padding: 10px 30px;
+border-radius: 20px;
+background-color: rgb(4, 71, 80);
+color: white;
+border: none;
+  }
+
+.flexcontainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.flex1{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.flex2{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.active{
+  color:#F8007A
+}
+.homebanner{
+  height: 500px;
+  width: 100%;
+  background-color: #F3FEFF;
+  align-items: center;
+  padding-left: 10% 5%;
+
+}
+
+.item{
+  position: relative;  
 }
