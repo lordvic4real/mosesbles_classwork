@@ -193,3 +193,79 @@ button {
 .item {
   position: relative;
 }
+
+/* mos */
+
+.hiw-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+      104.76deg,
+      rgba(255, 255, 255, 0) 43.8%,
+      rgba(179, 225, 249, 0.53) 72.41%,
+      #8cc6df 107.45%
+    ),
+    url(images/heartpic.jpg);
+
+  width: 1366px;
+  height: 708px;
+  border-radius: 0 0 0 354px;
+  background-position: top left ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hwflx1 {
+  flex: 1;
+  width: 538px;
+}
+.hwflx2 {
+  flex: 1;  
+  justify-content: space-between;
+  align-self: center;
+  font-family: "Mulish" sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #135e90;
+  height:500px ;
+  width:538px ;
+}
+.p1 {
+  width: 488px;
+  height: 60px;
+  font-family: "Mulish" sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.sh1 {
+  width: 538px;
+  height: 210px;
+  font-family: "Mulish" sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.bttn {
+  
+  justify-content: space-evenly;
+  align-self: center;
+  width: 237px;
+  height: 40px;
+  border-radius: 20px;
+  background: #135e90;
+}
+.sore{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
