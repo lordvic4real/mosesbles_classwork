@@ -12,11 +12,11 @@ body {
 }
 
 footer {
-  height: 435px;
+  min-height: 435px;
   background-color: white;
 }
 .rectangel {
-  height: 400px;
+  height: 435px;
   border: 1.5px solid #ffffff;
   background: #135e90;
 }
@@ -179,7 +179,7 @@ input:focus {
     &:after {
       width: 100%;
       height: 100%;
-      border-color: rgb(236, 17, 17);
+      border-color:#135e90;
     }
   }
 }
@@ -317,9 +317,30 @@ button {
 }
 
 .blwbanner-container {
-  height: 2500px;
+  min-height: 2300px;
   background: #f3feff;
+  padding: 15px;
+  
 }
+
+.deep{
+  padding:50px;
+  justify-content: center;
+
+}
+.hrz{
+  display: flex;
+  flex-flow: column;
+  height: 500px;
+  background-color:#8cc6df ;
+  width: 20px;
+  border-radius: 20px;
+  justify-content: space-around;
+
+  
+
+}
+
 .inline {
   display: flex;
   flex-flow: column;
@@ -329,9 +350,9 @@ button {
 .flexhw {
   display: flex;
   justify-content: space-between;
-  gap: 80px;
+  gap: 150px;
   padding: 50px;
-  height: 545px;
+  height: 450px;
   font-family: "mulish", sans-serif;
   color: #135e90;
 }
@@ -348,7 +369,7 @@ button {
   object-fit: cover;
   background-size: cover;
   height: 400px;
-  width: 400px;
+  width: 450px;
 }
 
 .itemflx3 {
@@ -356,14 +377,6 @@ button {
   justify-self: space-between;
 }
 
-.flexhw1 {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
-  padding: 50px;
-  height: 545px;
-  color: #135e90;
-}
 .itemflx4 {
   flex: 1;
   align-self: center;
@@ -375,23 +388,15 @@ button {
   object-fit: cover;
   background-repeat: none;
   background-size: cover;
-  height: 426px;
-  width: 412px;
+  width: 450px;
+  height: 400px;
 }
 .itemflx6 {
   flex: 2;
   justify-self: space-between;
 }
 
-.flexhw2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 80px;
-  padding: 50px;
-  height: 545px;
-  color: #135e90;
-}
+
 .itemflx7 {
   flex: 1;
   align-self: center;
@@ -401,23 +406,15 @@ button {
   flex: 2;
   background-repeat: none;
   background-size: cover;
-  height: 426px;
-  width: 412px;
+  height: 400px;
+  width: 450px;
 }
 .itemflx9 {
   flex: 2;
   justify-content: space-between;
+  
 }
 
-.flexhw3 {
-  display: flex;
-  justify-content: space-around;
-  align-self: center;
-  gap: 80px;
-  padding: 50px;
-  height: 545px;
-  color: #135e90;
-}
 .itemflx10 {
   flex: 1;
   align-self: center;
@@ -427,8 +424,8 @@ button {
   flex: 2;
   background-repeat: none;
   background-size: cover;
-  height: 426px;
-  width: 412px;
+  height: 400px;
+  width: 450px;
 }
 .itemflx12 {
   flex: 2;
@@ -443,7 +440,7 @@ img {
  
 }
 #h1 {
-  font-family: "Mulish" sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
@@ -527,7 +524,7 @@ img {
  
   background: url(images/fdc949d9e8ad3e854a9194219f75a254.jpg);
   background-position: right;
-  bacrkground-size: cover;
+  background-size: cover;
   object-fit: cover;
   height: 350px;
   width: 350px;
@@ -566,18 +563,24 @@ img {
   content: "";
   background-color: red !important;
   position: inherit;
+
 }
 
-
-
+/* 
+.bbttn :hover{
+  
+  color: #f8007a;
+  background: #111010;
+} */
 
 .lastcontainer{
-  min-height: 517px;
+  min-height: 700px;
   padding: 50px;
   
 }
-
-
+.uplit{
+  min-height: 180px;
+}
 .lasthw{
 display: flex;
 justify-content: space-evenly;
@@ -625,30 +628,24 @@ margin-top: -90px;
 }
 .box3{
   flex: 1;
-
   width: 409px;
   min-height: 250px;
   border-radius: 20px;
-  
-  
-
 }
+
 .drill{
   border: 5px solid #135E9033;
   min-height: 80px;
   border-radius: 20px;
   border-style: outset;
   padding: 20px;
-  
-
 }
 
-
 h2 {
-  margin-top: ;
   text-align: center;
   color: #135e90;
 }
+
 .txt2{
 font-family:"mullish" sans-serif;
 font-size: 16px;
