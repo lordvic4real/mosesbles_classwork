@@ -1327,10 +1327,10 @@ img {
   flex-direction: column;
   justify-content: center;
 }
-.tdct div .images {
+.tdct div .imagess {
   position: relative;
 }
-.tdct div .images::after {
+.tdct div .imagess::after {
   content: "";
   position: absolute;
   height: 300px;
@@ -1339,8 +1339,8 @@ img {
   z-index: -20000;
   border-radius: 25% 100%;
   transform: rotate(90deg);
-}
-.tdct div .images::after :nth-child(3).tdct div .images {
+ }
+.tdct div .imagess::after :nth-child(3).tdct div .images {
   content: "";
   background-color: red !important;
   position: inherit;
