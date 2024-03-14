@@ -1321,7 +1321,30 @@ img {
   height: 350px;
   width: 350px;
   border-radius: 700px;
-/* }git  */
+}
+.tdct div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tdct div .images {
+  position: relative;
+}
+.tdct div .images::after {
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  background-color: #123;
+  z-index: -20000;
+  border-radius: 25% 100%;
+  transform: rotate(90deg);
+}
+.tdct div .images::after :nth-child(3).tdct div .images {
+  content: "";
+  background-color: red !important;
+  position: inherit;
+}
 
 .lastcontainer {
   min-height: 700px;
