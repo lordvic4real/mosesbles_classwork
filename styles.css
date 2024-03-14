@@ -29,13 +29,13 @@ footer {
 }
 .footer-contactus {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   align-items: center;
   width: 1087px;
   height: 80px;
   border-radius: 35px;
   background: #d6f2f5;
-  margin: -40px 250px 0 250px;
+ 
 }
 i {
   width: 36px;
