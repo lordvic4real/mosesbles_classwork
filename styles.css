@@ -1183,3 +1183,140 @@ position: absolute;
 top: 5px;
 right: 280px
 }
+
+.carebanner{
+  height: 800px;
+  width: 100%;
+  background: #F3FEFF;
+  position: relative;
+}
+
+.backimg{
+height: 400px;
+background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(140, 198, 223, 0.84) 100%),url(images/img8.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.big{
+display: flex;
+flex-flow: column;
+position: absolute;
+top: 20px;
+left: 120px;
+
+}
+
+.svgimg{
+background-image: url(images/pic5.jpg);
+height: 360px;
+width: 360px;
+border-radius: 100%;
+background-position: right;
+z-index: 2;
+position: absolute;
+top: 140px;
+}
+
+.first1{
+position: absolute;
+z-index: 1;
+top: 100px;
+left: -5px;
+}
+
+.troll{
+display: flex;
+white-space: nowrap;
+position: absolute;
+flex-flow: column;
+}
+.pov{
+font-family: "Mulish", sans-serif;
+font-size: 60px;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0.08em;
+color:  #F8007A;
+position: absolute;
+left: 650px;
+white-space: wrap;
+bottom: 120px;
+-webkit-text-stroke: 2px #FFFFFF;
+}
+
+.pov2{
+  font-family: "Mulish", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #524D4D;
+position: absolute;
+left: 650px;
+}
+.jug{
+  display: flex;
+  flex-flow: row;
+}
+
+.doc{
+  flex: 1;
+  position: absolute;
+  bottom: 50px;
+  left: 500px;
+  color: #F8007A;
+
+}
+.docbt{
+  flex: 1;
+  position: absolute;
+  bottom: 50px;
+  right: 500px;
+  background: #135E90;
+  box-shadow: -3px 3px 11px 0px #8CC6DFCC;
+
+}
+
+.rose{
+height: 550px;
+width: 100%;
+background-color: #F3FEFF;
+position: relative;
+}
+.roses{ 
+  height: 450px;
+  width: 95%;
+  border-radius: 25px;
+  opacity: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px 0px #135E9026;
+  position:  absolute;
+  left: 30px;
+  display: flex;
+}
+
+.roset{
+width: 85%;
+height: 40px;
+border-radius:25px;
+opacity: 0px;
+background-color: 1px solid #FFFFFF;
+box-shadow: 0px 3px 10px 0px #135E9026;
+position: absolute;
+left: 80px;
+top: 20px;
+font-family: "mulish", sans-serif;
+display: flex;
+}
+.bad{
+font-family: "Mulish", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #524D4D;
+position: absolute;
+justify-content: space-around;
+}
